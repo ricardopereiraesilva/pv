@@ -1,0 +1,28 @@
+Desenvolva nesta pasta (C:\Users\ricar\Documents\2026\karaoke mixer\ensaio 29jan) uma single page application (SPA) em React (sob Vite), PWA instalável, com as seguintes características e funcionalidades:
+1. Ela terá um campo de texto onde será possível colar o link de uma playlist do Facebook;
+2. A partir do link, ela criará uma miniatura (thumbnail) para cada vídeo contido na playlist, que também será link para acesso ao vídeo, que não será baixado, mas apenas apontado pelo link;
+3. Os links/thumbnails deverão ser exibidos verticalmente, na ordem em que aparecem na playlist;
+4. A interface deve ser projetada com responsividade priorizando a boa aparência na tela de telefones celulares;
+5. Uma vez acionado um dos links, na tela da aplicação deve ser exibido um player executando o correspondente vídeo do YouTube;
+6. O player deve ter os comando clássicos de um player de vídeo (play, pause, stop avançar etc.) identificados pro ícones gráficos;
+7. Quando a execução do vídeo acabar ou for interrompida (stop), o player deve ser fechado e carregada a página inicial com campo de texto e thumbnais previamente produzidos;
+8. A cada nova playlist colocada no campo de texto, os correspondentes thumbnais serão criados e acrescentados à biblioteca da tela inicial, após os já existentes.
+Alguma dúvida?
+
+1. Vídeos de playlists do Youtube. A única URL informada à app é a da playlist.
+2. A aplicação copia os links dos vídeos contidos na playlist apenas, sem baixar esses vídeos. Uma coleção de links. Cada um desses links, mediante seleção do usuário, seria colado em um player, que pode ser um artefato reusado, a seu critério, que exibiria o correspondente vídeo. Adote a solução que você achar mais recomendável.
+3. Ser apenas temporária durante a sessão atual.
+4. usuário cola diretamente (e apenas) Link da playlist do YouTube.
+
+ C:\Users\ricar\.claude\plans\virtual-cuddling-biscuit.md
+
+Crie nesta pasta (ensaio29jan) o projeto contido em C:\Users\ricar\.claude\plans\virtual-cuddling-biscuit.md,com os seguintes requisitos adicionais:
+1. Além de links de playlists, o aplicativo deve tratar links de vídeos individuais do Youtube. Neste caso, o único link do vídeo apontado deve ser adicionado à biblioteca local do aplicativo.
+2. Apenas URLs do youTube serão tratadas e qualquer URL que não seja do Youtube deve gerar mensagem de erro. 
+3. um link inválido do Youtube deve gerar mensagem de erro.
+
+Chave api youtube/ghub: AIzaSyDCEWUbicKdvWQeOviyJwtV7z8adX8eieg
+
+
+
+
